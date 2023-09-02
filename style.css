@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    background-color: #047857;
+    font-weight: 700;
+    width: clamp(200px, 15%, 300px);
+    gap: 10px;
+}
+
+.logo-sidebar, li {
+    color: white;
+    padding: 6px;
+}
+
+.sidebar li:hover {
+    background: #14532d;
+    color: #bbf7d0;
+    border-left: 4px solid #dcfce7;
+    padding-left: calc(1rem);
+}
