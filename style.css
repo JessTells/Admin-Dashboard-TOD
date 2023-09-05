@@ -30,3 +30,8 @@ ul {
     border-left: 4px solid #dcfce7;
     padding-left: calc(1rem);
 }
+
+.home::before {
+    content: url('/SVGs/home.svg');
+}
+
