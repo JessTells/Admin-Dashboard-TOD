@@ -31,15 +31,3 @@ ul {
     padding-left: calc(1rem);
 }
 
-.home::before {
-    content: "";
-    background-image: url('SVGs/home.svg');
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-
-}
-
